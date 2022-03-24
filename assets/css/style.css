@@ -1,0 +1,320 @@
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("/assets/font/OpenSans-Regular.ttf");
+    font-family: "PhosphateRRSolid";
+    src: url("/assets/font/PhosphateRRSolid.ttf");
+
+  }
+*{
+    margin: 0;
+
+}
+h1{
+    font-family: "PhosphateRRSolid";
+    font-size: 144px;
+    font-weight: 400;
+    color:  #ffffff;
+}
+h2{
+    font-family: "PhosphateRRSolid";
+    font-size: 89px;
+    font-weight: 400;
+    color:  #ffffff;
+}
+h3{
+    font-family: "PhosphateRRSolid";
+    font-size: 20px;
+    font-weight: 400;
+    color:  #ffffff;
+
+}
+p{
+    font-family: "OpenSans-Regular";
+    font-size: 13px;
+    font-weight: 400;
+    color:  #ffffff;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    font-family: "PhosphateRRSolid";
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 400;
+    color:  #ffffff;
+}
+.fa-quote-left, .fa-quote-right, hr, span{
+    color: #B67D27;
+
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    flex-direction: row;
+    background: radial-gradient(61.59% 119.66% at 100% 38.41%, rgba(53, 43, 43, 0.77) 0%, #2E2C2C 86.77%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.image1{
+    width: 616px;
+    height: 953px;
+    rotate: y 180deg;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.réalisations{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(87.6% 89.88% at 87.56% 12.4%, rgba(46, 45, 45, 0.88) 0%, #2E2D2D 46.35%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.réalisations > h2{
+    padding-right: 1000px;
+
+
+}
+.content_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.image3{
+    width: 686px;
+    height: 477px;
+    margin: 100px;
+    clip-path: polygon(14% 0, 100% 0, 100% 0, 100% 83%, 85% 100%, 0 100%, 0 100%, 0 16%);
+}
+.content_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+.content_2 > p{
+    text-align: center;
+    margin: 100px 200px;
+
+}
+
+#qleft, #qright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.réalisations > .content_1 > .content_2 > .content_3 > #qleft > hr{
+    border: 1px solid;
+    width: 463px;
+    margin-left: 5px;
+
+}
+.réalisations > .content_1 > .content_2 > .content_3 > #qright > hr{
+    border: 1px solid;
+    width: 463px;
+    margin-right: 5px;
+    
+}
+
+.réalisations > .content_1 > .content_2 > hr{
+    border: 4px solid;
+    width: 204px;
+
+}
+.threeround{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.round{
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(49.96% 49.96% at 50% 50.04%, rgba(47, 46, 46, 0.87) 3.5%, #2F2E2E 98.28%);
+}
+.content_11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 100px;
+
+}
+.content_11 > h2{
+    margin: 0px 100px 0px 500px;
+
+}
+
+.services > .content_11 > .content_12 > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.services > .content_11 > .content_12 > ul > li > a{
+    margin: 10px;
+}
+.content_13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px;
+
+}
+.content_14{
+    margin: 60px;
+}
+.content_16{
+    margin: 60px;
+}
+
+.services > .content_13 > .content_14 > .content_15 > h3 > hr{
+    width: 550px;
+
+}
+
+.services > .content_13 > .content_14 > .content_15 > h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+
+}
+.services > .content_13 > .content_16 > .content_15 > h3 > hr{
+    width: 550px;
+
+}
+
+.services > .content_13 > .content_16 > .content_15 > h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+
+
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background: radial-gradient(46.73% 85.57% at 3.27% 86.69%, rgba(48, 47, 47, 0.85) 0%, #302F2F 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.contact > ul > li  > a{
+    color: #B67D27;
+    margin: 200px;
+
+
+}
+.contact > .content_20{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px ;
+    
+
+}
+.contact > .content_20 > .content_21{
+
+}
+.contact > .content_20 > .content_21 > .content_22{
+    border: #ffffff;
+
+}
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(50% 389.65% at 0% 92.16%, rgba(34, 32, 32, 0.83) 0%, #282525 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+footer > .content_30{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 130px ;
+
+}
+footer > .content_30 > h1{
+    font-size: 34px;
+    padding: 17px 80px;
+
+
+}
+footer > .content_30 > .content_31{
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    padding: 0px 80px;
+
+}
+footer > .content_30 > .content_31 > p{
+    width: 379px;
+    height: 72px;
+}
+footer > .content_30 > .content_31 > .legals{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+footer > .content_30 > .content_31 > .content_32 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 350px;
+
+}
+footer > .content_30 > .content_31 > .content_32 > a{
+    font-family: "OpenSans-Regular";
+    font-size: 13px;
+    font-weight: 400;
+
+}
